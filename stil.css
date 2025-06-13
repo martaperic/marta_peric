@@ -1,0 +1,72 @@
+/* Glavna pozadina stranice */
+body {
+    background-color: #f3e6ff; /* svijetlo ljubičasta */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000; /* crni tekst */
+}
+
+/* Okvir koji drži sadržaj */
+.container {
+    background-color: #f9f0ff; /* još svjetlija ljubičasta */
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* Naslovi */
+h1, h2, h3 {
+    color: #004d00; /* tamno zelena */
+}
+
+/* Navigacija */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a:link {
+    color: #004d00;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #004d00;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Slike */
+img {
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 20px 0;
+}
+
+/* YouTube iframe */
+iframe {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Audio */
+audio {
+    display: block;
+    margin: 20px 0;
+}
