@@ -107,8 +107,8 @@ body {
 
 .galerija img,
 .galerija video {
-  width: 160px; /* SMANJENO s 250px na 180px */
-  height: auto;
+  hight: 160px; /* SMANJENO s 250px na 180px */
+  width: auto;
   border: 2px solid #ffc0cb;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(199, 21, 133, 0.2);
@@ -146,8 +146,8 @@ body {
 
 /* Galerija slika u O meni - PRISILNO manja veličina */
 .o-meni-galerija img {
-  width: 160px !important;
-  height: auto !important;
+  height: 160px !important;
+  width: auto !important;
   border: 2px solid #ffc0cb;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(199, 21, 133, 0.2);
