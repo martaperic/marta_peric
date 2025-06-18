@@ -105,9 +105,15 @@ body {
   padding: 0 10px;
 }
 
-.galerija img,
-.galerija video {
+.galerija img {
   height: 140px; /* SMANJENO s 250px na 180px */
+  width: auto;
+  border: 2px solid #ffc0cb;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(199, 21, 133, 0.2);
+}
+.galerija video {
+  height: 180px; /* SMANJENO s 250px na 180px */
   width: auto;
   border: 2px solid #ffc0cb;
   border-radius: 10px;
