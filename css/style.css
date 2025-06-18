@@ -1,0 +1,82 @@
+
+@font-face {
+  font-family: 'Marta Perić';
+  src: url('../fonts/MartaPeric.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Marta Perić', Arial, sans-serif;
+  background-image: url("../slike/pozadina1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #c71585; /* tamno roza */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.naslov {
+  font-family: 'Marta Perić', cursive;
+  color: #c71585;
+  font-size: 48px;
+  margin: 0;
+}
+
+.podnaslov {
+  color: #c71585;
+  font-size: 24px;
+  margin: 10px 0 30px;
+}
+
+/* Blok s linkovima i tekstom u rozom okviru */
+.kartica {
+  border: 3px solid #ffc0cb; /* svijetlo rozi okvir */
+  background-color: rgba(255, 255, 255, 0.7); /* lagana pozadina za čitkost */
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(199, 21, 133, 0.3);
+}
+
+/* Navigacija unutar kartice */
+.navigacija {
+  margin: 20px 0;
+}
+
+.navigacija a {
+  text-decoration: none;
+  color: #c71585;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border: 2px solid #ffc0cb;
+  border-radius: 8px;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigacija a:hover {
+  background-color: #ffc0cb;
+  color: white;
+}
+
+.uvod {
+  font-size: 18px;
+  white-space: pre-line;
+  margin: 20px 0 0;
+  color: #c71585;
+}
