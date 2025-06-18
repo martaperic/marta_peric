@@ -107,7 +107,7 @@ body {
 
 .galerija img,
 .galerija video {
-  height: 100px; /* SMANJENO s 250px na 180px */
+  height: 140px; /* SMANJENO s 250px na 180px */
   width: auto;
   border: 2px solid #ffc0cb;
   border-radius: 10px;
